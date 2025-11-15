@@ -1,0 +1,186 @@
+@import "tailwindcss";
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  width: 100%;
+}
+/* 
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+  padding: 1.5rem;
+  display: flex;
+  gap: 1rem;
+}
+
+main .left,
+main .right {
+  height: 100%;
+  flex-basis: 50%;
+  border-radius: 0.7rem;
+}
+
+main .left {
+  background-color: #000000;
+  position: relative;
+}
+
+.left .code,
+.code pre,
+.code pre code {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  border-radius: 0.7rem;
+  background-color: #0c0c0c;
+}
+
+main .left .review {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  background-color: rgb(219, 219, 255);
+  color: #000000;
+  padding: 0.5rem 2rem;
+  font-weight: 500;
+  cursor: pointer;
+  user-select: none;
+  border-radius: 0.7rem;
+}
+
+
+main .right {
+  background-color: #343434;
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  overflow: auto;
+} */
+
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  /* background: #f8f9fc; */
+}
+
+.app-container {
+  width: 100%;
+  padding: 20px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 25px;
+  font-weight: bold
+  /* background-color: #666; */
+}
+
+.logo {
+  height: 55px;
+}
+
+.header h1 {
+  margin: 10px 0;
+  font-size: 34px;
+}
+
+.header p {
+  color: #666;
+ width: 100%;
+  max-width: 650px;
+  margin: auto;
+}
+
+.main-layout {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+.left-side,
+.right-side {
+  background: #fff;
+  height: 100%;
+  flex-basis: 50%;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+
+.left-side {
+  height: 100%;
+  width: 100%;
+    background-color: #000000;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.right-side {
+  height: 100%;
+  width: 100%;
+   background-color: #343434;
+  flex: 1;
+  min-height: 450px;
+  overflow-y: auto;
+}
+
+.label {
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.dropdown {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  margin-bottom: 15px;
+  outline: none;
+  font-size: 15px;
+  background: black;
+}
+
+.editor-box {
+   height: 100%;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  overflow: hidden;
+  min-height: 350px;
+}
+
+.review-btn {
+  margin-top: 15px;
+  padding: 12px;
+  background: #5b4bff;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.2s;
+}
+
+.review-btn:hover {
+  background: #4739d1;
+}
