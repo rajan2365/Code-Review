@@ -1,16 +1,129 @@
-# React + Vite
+🚀 AI-Powered Code Review System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An advanced AI-driven platform that automatically reviews source code using Gemini AI, detecting errors, vulnerabilities, code smells, and offering best-practice suggestions.
+Built using React.js, Node.js, Express.js, Tailwind CSS, and Gemini API.
 
-Currently, two official plugins are available:
+🔥 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+⚡ Real-time AI code analysis
 
-## React Compiler
+🔍 Detects bugs, syntax issues & runtime risks
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🛡 Identifies security vulnerabilities
 
-## Expanding the ESLint configuration
+🧹 Highlights code smells
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+✨ Suggests optimizations & improvements
+
+🧾 Severity levels: Low, Medium, High
+
+🎨 Modern UI using React + Tailwind CSS
+
+🔗 REST API backend with Node.js + Express
+
+🛠 Tech Stack
+
+Frontend:
+
+React.js
+
+Tailwind CSS
+
+Backend:
+
+Node.js
+
+Express.js
+
+AI Engine:
+
+Gemini AI (Google)
+
+Tools:
+
+Git, GitHub
+
+VS Code
+
+Postman
+
+📁 Project Structure
+/client
+  └── src
+      ├── components
+      ├── pages
+      ├── utils
+      ├── App.js
+      └── index.js
+
+/server
+  ├── controllers
+  ├── routes
+  ├── services
+  ├── geminiConfig.js
+  ├── index.js
+  └── package.json
+
+🔧 How It Works
+
+User pastes code into the web editor
+
+Frontend sends the code to the backend API
+
+Backend forwards code to Gemini AI
+
+AI returns a detailed report:
+
+❌ Errors
+
+🛡 Security issues
+
+⚠️ Code smells
+
+🔧 Optimization suggestions
+
+🎯 Formatting fixes
+
+UI displays the analysis with severity tags
+
+🖥 Installation & Setup
+1️⃣ Clone the Project
+git clone https://github.com/rajan2365/Code-Review.git
+cd Code-Review
+
+2️⃣ Install Dependencies
+Client
+cd client
+npm install
+
+Server
+cd ../server
+npm install
+
+🔐 Environment Variables
+
+Create a .env file inside /server:
+
+GEMINI_API_KEY=your_api_key_here
+PORT=5000
+
+▶️ Run Locally
+Start Frontend:
+cd client
+npm start
+
+Start Backend:
+cd server
+npm start
+
+📌 Future Roadmap
+
+🌐 Multi-language support (Python, Java, C++, etc.)
+
+🛠 Auto-fix suggestions
+
+🧑‍💻 User authentication + saved reports
+
+📁 File upload support
+
+🔗 GitHub/GitLab pull request integration
